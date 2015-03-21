@@ -1,0 +1,21 @@
+{
+  "name": "my-ngx-app",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "private": true,
+  "dependencies": {
+    "html5shiv": "~3.7.2",
+    "angular": "1.x.x",
+    "ui-router": "~0.2.13",
+    "jquery": "~2.1.1",
+    "bootstrap": "3.x.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.7"
+  }
+}

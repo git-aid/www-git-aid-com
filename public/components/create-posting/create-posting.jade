@@ -1,0 +1,102 @@
+.container
+    .row
+        .col-sm-8.col-sm-offset-2
+
+            form
+
+                .row
+                    .col-sm-4
+                        .form-group
+                            label Owner
+                            select.form-control
+                                option jvandemo
+                    .col-sm-6
+                        .form-group
+                            label Repository
+                            select.form-control
+                                option repo
+                    .col-sm-2
+                        .form-group
+                            label &nbsp;
+                            .form-control-static
+                                a(href="#")
+                                    i.fa.fa-refresh.fa-fw
+                                    | Sync
+
+                .row.margin-top-m
+                    .col-sm-10
+                        .form-group
+                            label I'm looking for:
+
+                            .row
+                                .col-sm-6
+                                    .checkbox
+                                        label
+                                            input(type="checkbox", ng-model="", value="maintainer")
+                                            strong Maintainer
+                                            p.help-block Someone who can maintain the code
+                                    .checkbox
+                                        label
+                                            input(type="checkbox", ng-model="", value="maintainer")
+                                            strong PR reviewer
+                                            p.help-block Someone who can review pull requests
+                                .col-sm-6
+                                    .checkbox
+                                        label
+                                            input(type="checkbox", ng-model="", value="maintainer")
+                                            strong Issue helper
+                                            p.help-block Someone who can help with issues
+                                    .checkbox
+                                        label(style="width: 100%;")
+                                            input(type="checkbox", ng-model="", value="maintainer")
+                                            strong Other
+                                            input.form-control(type="text")
+
+                            //- textarea.form-control(placeholder="Someone who can review PR's")
+
+                .row.margin-top-m
+                    .col-sm-10
+                        .form-group
+                            label Required skills:
+                            p.help-block Separate skills using a comma
+                            input.form-control(placeholder="JavaScript, CSS, Go")
+
+                .row.margin-top-m
+                    .col-sm-10
+                        .form-group
+                            label Please contact me via
+
+                            .row
+                                .col-sm-6
+                                    .checkbox
+                                        label
+                                            input(type="checkbox", ng-model="", value="maintainer")
+                                            strong GitHub
+                                            p.help-block Create an issue in the repository
+                                    .checkbox
+                                        label(style="width: 100%;")
+                                            input(type="checkbox", ng-model="", value="maintainer")
+                                            strong Email
+                                            input.form-control(type="text", placeholder="Your email address")
+
+                                .col-sm-6
+                                    .checkbox
+                                        label(style="width: 100%;")
+                                            input(type="checkbox", ng-model="", value="maintainer")
+                                            strong Twitter
+                                            input.form-control(type="text", placeholder="Your twitter handle")
+                                    .checkbox
+                                        label(style="width: 100%;")
+                                            input(type="checkbox", ng-model="", value="maintainer")
+                                            strong Other
+                                            input.form-control(type="text", placeholder="")
+
+                //- .row.margin-top-m
+                    .col-sm-10
+                        .form-group
+                            label Please contact me via:
+                            textarea.form-control(placeholder="Twitter, email, create GitHub repo")
+
+                .row.margin-top-m
+                    .col-sm-10
+                        button.btn.btn-success Create posting

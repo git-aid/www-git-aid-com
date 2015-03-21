@@ -1,0 +1,6 @@
+{
+  "name": "www-git-aid-com",
+  "root": "dist",
+  "clean_urls": true,
+  "error_page": "index.html"
+}

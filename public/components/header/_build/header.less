@@ -1,0 +1,29 @@
+header.site-header{
+  padding: 15px 0;
+  a.navbar-brand{
+    text-transform: uppercase;
+    font-weight: 700;
+    i.fa{
+      margin-right: 0.3em;
+    }
+  }
+  img.avatar{
+    height: 20px;
+    margin-right: 6px;
+  }
+  ul.nav.navbar-nav{
+    >li{
+      >a{
+        &.avatar{
+          margin-left: 30px;
+          position: relative;
+          img{
+            position: absolute;
+            top: 15px;
+            left: -10px;
+          }
+        }
+      }
+    }
+  }
+}
